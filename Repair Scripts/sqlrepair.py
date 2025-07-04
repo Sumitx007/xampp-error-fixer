@@ -8,7 +8,6 @@ hahah = r"""
                                    
         https://github.com/sumitx007/xampp-error-fixer
 """
-print(hahah)
 import os
 import shutil
 import subprocess
